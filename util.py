@@ -20,7 +20,3 @@ def get_frames(filepath:str) -> npt.NDArray:
         else:
             break
     return np.stack(frames, axis=0)
-
-def retrieve_minerl_frames() -> npt.NDArray:
-    """ 
-    """
