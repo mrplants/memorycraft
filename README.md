@@ -11,8 +11,9 @@ Cluster the frames using kmeans[^2][^3].  This is a baseline clustering that all
 <p align="center">
     <img width="461" height="369" src="https://user-images.githubusercontent.com/3487464/190886530-185c7321-088c-4fff-8904-102eaf054f85.png">
 </p>
-[^1]Guss, William H., et al. "Minerl: A large-scale dataset of minecraft demonstrations." arXiv preprint arXiv:1907.13440 (2019).
 
-[^2]J. MacQueen (1967). Some methods for classification and analysis of multivariate observations. Proc. Fifth Berkeley Symp. on Math. Statist. and Prob., Vol. 1 (Univ. of Calif. Press, 1967), 281--297.
+[^1]: Guss, William H., et al. "Minerl: A large-scale dataset of minecraft demonstrations." arXiv preprint arXiv:1907.13440 (2019).
 
-[^3]Steinhaus (1956). Sur la division des corps mat ́eriels en parties. Bulletin de l’Académie Polonaise des Sciences, Classe III, vol. IV, no. 12, 801-804.
+[^2]: J. MacQueen (1967). Some methods for classification and analysis of multivariate observations. Proc. Fifth Berkeley Symp. on Math. Statist. and Prob., Vol. 1 (Univ. of Calif. Press, 1967), 281--297.
+
+[^3]: Steinhaus (1956). Sur la division des corps mat ́eriels en parties. Bulletin de l’Académie Polonaise des Sciences, Classe III, vol. IV, no. 12, 801-804.
