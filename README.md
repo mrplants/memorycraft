@@ -6,7 +6,9 @@ The MineRL v0.4 dataset is a set of screen captures from Minecraft users accompl
 
 ## Idea 1
 
-Cluster the frames using kmeans[^2][^3].  This is a baseline clustering that allows me to wrap my arms around this dataset while employing a simple ML technique called kmeans.  Since there are far too many frames to fit in memory, my kmeans implementation uses batched online averaging with centroid updates at the end of each iteration.  I could have used a minibatch update approach, but I wanted guaranteed convergence.  Wherever possible, I used Tensorflow batched operations to speed up the data processing.  Here are the centroids resulting from a small sample of the data (10,000 frames):
+Cluster the frames using kmeans[^2][^3].
+
+This is a baseline clustering that allows me to wrap my arms around this dataset while employing a simple ML technique called kmeans.  Since there are far too many frames to fit in memory, my kmeans implementation uses batched online averaging with centroid updates at the end of each iteration.  I could have used a minibatch update approach, but I wanted guaranteed convergence.  Wherever possible, I used Tensorflow batched operations to speed up the data processing.  Here are the centroids resulting from a small sample of the data (10,000 frames):
 
 <p align="center">
     <img width="461" height="369" src="https://user-images.githubusercontent.com/3487464/190886530-185c7321-088c-4fff-8904-102eaf054f85.png">
